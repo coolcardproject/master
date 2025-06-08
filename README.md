@@ -13,36 +13,6 @@ Bu proje, [Projenin çözdüğü temel problem veya amacı] amacıyla geliştiri
 * **[Özellik 3]:** [Özelliğin kısa açıklaması, örn: Fotoğraflara etiket ekleyerek kolayca arama yapma.]
 * **[Özellik 4]:** [Özelliğin kısa açıklaması, örn: Mobil uyumlu ve şık arayüz.]
 
-## 🛠️ Kurulum
-
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
-
-1.  **Repository'yi klonlayın:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[kullanici-adin]/[proje-adin].git
-    ```
-2.  **Proje dizinine gidin:**
-    ```bash
-    cd [proje-adin]
-    ```
-3.  **Bağımlılıkları yükleyin:**
-    ```bash
-    pnpm install
-    ```
-4.  **Ortam değişkenlerini ayarlayın:**
-    * `.env.example` dosyasını kopyalayıp `.env` adında yeni bir dosya oluşturun.
-    * `.env` dosyasındaki gerekli alanları (veritabanı bağlantısı, API anahtarları vb.) doldurun.
-    ```bash
-    cp .env.example .env
-    ```
-5.  **Veritabanını hazırlayın:**
-    ```bash
-    pnpm run db:push # Veya projenizdeki ilgili komut
-    ```
-6.  **Geliştirme sunucusunu başlatın:**
-    ```bash
-    pnpm run dev
-    ```
 
 Uygulama artık `http://localhost:3000` adresinde çalışıyor olmalı.
 
